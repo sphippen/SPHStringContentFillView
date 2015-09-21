@@ -1,0 +1,14 @@
+PODS:
+  - SPHStringContentFillView (0.1.0)
+
+DEPENDENCIES:
+  - SPHStringContentFillView (from `../`)
+
+EXTERNAL SOURCES:
+  SPHStringContentFillView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPHStringContentFillView: 38b1a1ccc389b430e30ba2003b50ad6678e5427c
+
+COCOAPODS: 0.39.0.beta.4

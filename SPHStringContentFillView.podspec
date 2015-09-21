@@ -1,40 +1,24 @@
-#
-# Be sure to run `pod lib lint SPHStringContentFillView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SPHStringContentFillView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SPHStringContentFillView."
+  s.summary          = "A view that fills itself with customizable string content."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       A view subclass that fills itself with multiple copies of a customizable string at randomly generated locations and rotations.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SPHStringContentFillView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/sphippen/SPHStringContentFillView"
   s.license          = 'MIT'
   s.author           = { "Spencer Phippen" => "spencer.phippen@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SPHStringContentFillView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/sphippen/SPHStringContentFillView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,mm}'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   s.resource_bundles = {
     'SPHStringContentFillView' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

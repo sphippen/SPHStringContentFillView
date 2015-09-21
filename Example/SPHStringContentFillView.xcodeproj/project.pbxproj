@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286BFBD71BB0AE8F00FFA3E3 /* SPHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BFBD61BB0AE8F00FFA3E3 /* SPHView.m */; };
 		5BE856E9B5F63248FDCAF532 /* Pods_SPHStringContentFillView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E21D7E4BBE8CCA1D1DC2ED /* Pods_SPHStringContentFillView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		644E1F627CAC02B85D549B74 /* Pods_SPHStringContentFillView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFF38C3999B5A59C5868E74 /* Pods_SPHStringContentFillView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,10 @@
 
 /* Begin PBXFileReference section */
 		018AE06879713E7E74193C14 /* SPHStringContentFillView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPHStringContentFillView.podspec; path = ../SPHStringContentFillView.podspec; sourceTree = "<group>"; };
+		286BFBD51BB0AE8F00FFA3E3 /* SPHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHView.h; sourceTree = "<group>"; };
+		286BFBD61BB0AE8F00FFA3E3 /* SPHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHView.m; sourceTree = "<group>"; };
 		5BB3042445D3D32630C92F5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* SPHStringContentFillView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SPHStringContentFillView.app; path = SPHStringContentFillView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* SPHStringContentFillView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPHStringContentFillView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +53,7 @@
 		6003F5A5195388D20070C39A /* SPHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* SPHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = SPHStringContentFillView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* SPHStringContentFillView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -59,7 +61,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6145C94BE01835A4110E8E6E /* Pods-SPHStringContentFillView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHStringContentFillView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPHStringContentFillView_Example/Pods-SPHStringContentFillView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A9FE5E7F20454450CE48381 /* Pods-SPHStringContentFillView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHStringContentFillView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPHStringContentFillView_Tests/Pods-SPHStringContentFillView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9E9FA2FF6713289F01EF1B2A /* Pods-SPHStringContentFillView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHStringContentFillView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPHStringContentFillView_Tests/Pods-SPHStringContentFillView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCFF38C3999B5A59C5868E74 /* Pods_SPHStringContentFillView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHStringContentFillView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE7717DEE3C329AA3B22636 /* Pods-SPHStringContentFillView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHStringContentFillView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPHStringContentFillView_Example/Pods-SPHStringContentFillView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,8 +109,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* SPHStringContentFillView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* SPHStringContentFillView_Example.app */,
+				6003F5AE195388D20070C39A /* SPHStringContentFillView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +133,10 @@
 			children = (
 				6003F59C195388D20070C39A /* SPHAppDelegate.h */,
 				6003F59D195388D20070C39A /* SPHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SPHViewController.h */,
 				6003F5A6195388D20070C39A /* SPHViewController.m */,
+				286BFBD51BB0AE8F00FFA3E3 /* SPHView.h */,
+				286BFBD61BB0AE8F00FFA3E3 /* SPHView.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +215,7 @@
 			);
 			name = SPHStringContentFillView_Example;
 			productName = SPHStringContentFillView;
-			productReference = 6003F58A195388D20070C39A /* SPHStringContentFillView.app */;
+			productReference = 6003F58A195388D20070C39A /* SPHStringContentFillView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* SPHStringContentFillView_Tests */ = {
@@ -234,7 +236,7 @@
 			);
 			name = SPHStringContentFillView_Tests;
 			productName = SPHStringContentFillViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* SPHStringContentFillView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -392,6 +393,7 @@
 			files = (
 				6003F59E195388D20070C39A /* SPHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SPHViewController.m in Sources */,
+				286BFBD71BB0AE8F00FFA3E3 /* SPHView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
