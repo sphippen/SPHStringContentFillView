@@ -26,6 +26,13 @@ void generatePositions(int hint, CGFloat width_, CGFloat height_, std::vector<CG
     hint *= 2;
     const double width = width_;
     const double height = height_;
+    
+    if (width == 0.0 || height == 0.0) {
+        points.clear();
+        radius_ = 1.0;
+        return;
+    }
+    
     const double radius = std::sqrt(2.0 * width * height / hint);
     const double radiusSquared = radius*radius;
     const double cellSize = radius / std::sqrt(2.0);

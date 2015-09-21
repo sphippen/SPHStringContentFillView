@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3D93418D444CBD567DB8797C'
+               BlueprintIdentifier = 'A39D52DE1596DC92FF936E7B'
                BlueprintName = 'SPHStringContentFillView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SPHStringContentFillView.framework'>

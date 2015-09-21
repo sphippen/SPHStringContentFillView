@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SPHStringContentFillView"
-  s.version          = "0.2.1"
+  s.version          = "0.2.2"
   s.summary          = "A view that fills itself with customizable string content."
 
   s.description      = <<-DESC
