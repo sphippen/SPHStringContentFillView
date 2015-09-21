@@ -178,6 +178,7 @@ void drawWithRotation(CGContextRef context, double angle, CGPoint center, void (
     _contentString = @"Content";
     _minimumFill = 10;
     _maximumFill = 100;
+    _overlapFactor = 1.5;
 
     [self setContentMode:UIViewContentModeRedraw];
 
@@ -204,7 +205,7 @@ void drawWithRotation(CGContextRef context, double angle, CGPoint center, void (
 
         const NSStringDrawingOptions options = NSStringDrawingUsesLineFragmentOrigin;
         if (!_drawFont) {
-            const CGFloat idealSize = _pointRadius * 1.5;
+            const CGFloat idealSize = _pointRadius * _overlapFactor;
             CGFloat lo = 1.0;
             CGFloat hi = 200.0;
             while (std::abs(lo - hi) > 1.1) {
