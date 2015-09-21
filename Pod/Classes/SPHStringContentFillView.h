@@ -16,7 +16,7 @@
 
 /**
  * The string used to fill the view. Default value is @"Content".
- * Changing this property does cause regeneration.
+ * Changing this property does not cause regeneration.
  */
 @property (nonatomic,copy) NSString* contentString;
 
@@ -42,6 +42,7 @@
  * At lower values, text gets smaller (less overlap).
  * At higher values, text gets bigger (more overlap).
  * Default value is 1.5.
+ * Changing this property does not cause regeneration.
  */
 @property (nonatomic) double overlapFactor;
 

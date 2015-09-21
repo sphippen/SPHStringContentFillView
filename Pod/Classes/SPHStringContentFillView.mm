@@ -258,9 +258,14 @@ void drawWithRotation(CGContextRef context, double angle, CGPoint center, void (
 #pragma mark Properties
 - (void) setContentString:(NSString*)contentString {
     _contentString = [contentString copy];
-    _drawFont = nil;
+    [self resetDrawState];
+    [self increment];
+}
 
-    [self setNeedsDisplay];
+- (void) setOverlapFactor:(double)overlapFactor {
+    _overlapFactor = overlapFactor;
+    [self resetDrawState];
+    [self increment];
 }
 
 - (void) setMinimumFill:(int)minimumFill {
@@ -282,12 +287,22 @@ void drawWithRotation(CGContextRef context, double angle, CGPoint center, void (
 }
 
 #pragma mark SPHStringContentFillView Methods
-- (void) generateWithClear:(BOOL)clear {
+- (void) resetDrawState {
+    _drawFont = nil;
     if (_drawLayer) {
         CGLayerRelease(_drawLayer);
         _drawLayer = NULL;
     }
-    _drawFont = nil;
+    _lastDrawFillStep = -1;
+    _fillStep = 0;
+
+    [_incrementTimer invalidate];
+    _incrementTimer = nil;
+}
+
+- (void) generateWithClear:(BOOL)clear {
+    [self resetDrawState];
+
     _generationHint = arc4random_uniform(_maximumFill - _minimumFill + 1) + _minimumFill;
     _boundsAtGenerationTime = [self bounds];
     if (clear)
@@ -297,8 +312,6 @@ void drawWithRotation(CGContextRef context, double angle, CGPoint center, void (
     for (int i = 0; i < _rotations.size(); i++)
         _rotations[i] = randomDouble() * 2 * M_PI;
 
-    _lastDrawFillStep = -1;
-    _fillStep = 0;
     _fillStepCount = std::min(100, static_cast<int>(_points.size()));
 }
 

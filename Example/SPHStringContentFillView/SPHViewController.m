@@ -26,6 +26,8 @@
     [[view minSlider] addTarget:self action:@selector(update:) forControlEvents:UIControlEventTouchUpOutside];
     [[view maxSlider] addTarget:self action:@selector(maxChanged:) forControlEvents:UIControlEventTouchUpInside];
     [[view maxSlider] addTarget:self action:@selector(update:) forControlEvents:UIControlEventTouchUpOutside];
+    [[view overlapSlider] addTarget:self action:@selector(overlapChanged:) forControlEvents:UIControlEventTouchUpInside];
+    [[view overlapSlider] addTarget:self action:@selector(update:) forControlEvents:UIControlEventTouchUpOutside];
     
     [self updateUI];
     
@@ -53,6 +55,12 @@
     [self updateUI];
 }
 
+- (void) overlapChanged:(UISlider*)overlap {
+    double value = pow(2.0, [overlap value]) * 0.25;
+    [[[self sphView] stringView] setOverlapFactor:value];
+    [self updateUI];
+}
+
 - (void) update:(UISlider*)_ {
     [self updateUI];
 }
@@ -61,11 +69,15 @@
     SPHView* view = [self sphView];
     int min = [[view stringView] minimumFill];
     int max = [[view stringView] maximumFill];
+    double overlap = [[view stringView] overlapFactor];
+    double sliderOverlap = log(4.0*overlap) / log(2.0);
+
     [[view minSlider] setValue:min];
     [[view maxSlider] setValue:max];
-    
+    [[view overlapSlider] setValue:sliderOverlap];
     [[view minLabel] setText:[NSString stringWithFormat:@"%d", min]];
     [[view maxLabel] setText:[NSString stringWithFormat:@"%d", max]];
+    [[view overlapLabel] setText:[NSString stringWithFormat:@"%0.2g", overlap]];
 }
 
 @end

@@ -18,6 +18,9 @@
 @property (readonly) UILabel* maxLabel;
 @property (readonly) UISlider* maxSlider;
 
+@property (readonly) UILabel* overlapLabel;
+@property (readonly) UISlider* overlapSlider;
+
 @property (readonly) SPHStringContentFillView* stringView;
 
 @end

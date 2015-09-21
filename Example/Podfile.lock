@@ -1,5 +1,5 @@
 PODS:
-  - SPHStringContentFillView (0.1.0)
+  - SPHStringContentFillView (0.2.1)
 
 DEPENDENCIES:
   - SPHStringContentFillView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SPHStringContentFillView: 38b1a1ccc389b430e30ba2003b50ad6678e5427c
+  SPHStringContentFillView: de99086b815302583ff6d267480f05e7a18972f2
 
 COCOAPODS: 0.39.0.beta.4

@@ -1,6 +1,6 @@
 {
   "name": "SPHStringContentFillView",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "summary": "A view that fills itself with customizable string content.",
   "description": "A view subclass that fills itself with multiple copies of a customizable string at randomly generated locations and rotations.",
   "homepage": "https://github.com/sphippen/SPHStringContentFillView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/sphippen/SPHStringContentFillView.git",
-    "tag": "0.1.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "7.0"

@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030D4FE2CE05214416D2B26C28EF6CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C310928BF8301546E89BCD2E7683E6EC /* Foundation.framework */; };
-		151F612A84EB02A812AAA5C2710B54CB /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6CD90AA296FCB6D210377017861D416 /* SPHStringContentFillView.bundle */; };
+		030D4FE2CE05214416D2B26C28EF6CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A61015EACCB62F57408A0C3278E244 /* Foundation.framework */; };
 		3408C582F3E294296A5A53897B6507E6 /* Pods-SPHStringContentFillView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993EAED2D6F3C9B976912545DF7200BE /* Pods-SPHStringContentFillView_Tests-dummy.m */; };
-		45C596A12A9D767C66141F28B488D59A /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 346ED1483A41761C1DFEA38F631D0D18 /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B35D85AA211C7CD859E87BC0332509 /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEE9C6557A58868766499EFAD8EEBFB /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62529668EC8902B67204BF8BA6DCCCBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C310928BF8301546E89BCD2E7683E6EC /* Foundation.framework */; };
+		43627220C5FB6F443C0EE8452D7E594D /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA081F286166E32248552D498804445F /* SPHStringContentFillView.mm */; };
+		440703FB3131D1C2C5BB32DD9102AACE /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 211745B1CE63CF73ECBE3BACD2CE632A /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586A4A2C4B63C7E9910D89079BD9349D /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582280C988B0D18B3FCD5CD94A1CAAC1 /* SPHStringContentFillView-dummy.m */; };
 		628923E492B541C2F85229944157A290 /* Pods-SPHStringContentFillView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F63ED159F8941905DE9BEDE5FF5A3B /* Pods-SPHStringContentFillView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BEA47EA5EA2B74EB51A8004ECEA53F7 /* Pods-SPHStringContentFillView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026321EBA3DDE8057B0DB531DDFED86C /* Pods-SPHStringContentFillView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9B903E8BACC80F3A7809FFFCF5457E /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BD07F61AD65A1B7D8C3091B5865081 /* SPHStringContentFillView-dummy.m */; };
-		A65D825E050A8308B44DF957CFADB401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C310928BF8301546E89BCD2E7683E6EC /* Foundation.framework */; };
+		826233B9E5A58D85CBDFE0154444269F /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98071A63D683A268743B3235901DAA32 /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		890BA7577270CBA30E55FC63C95CEE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A61015EACCB62F57408A0C3278E244 /* Foundation.framework */; };
+		9E687980B10ACA48120EC24D25EA8D49 /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 329A5AF8A79F65FE1B19D9C0575A72A0 /* SPHStringContentFillView.bundle */; };
+		A65D825E050A8308B44DF957CFADB401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A61015EACCB62F57408A0C3278E244 /* Foundation.framework */; };
 		ABF94EBB8047374D953146322DD95CA6 /* Pods-SPHStringContentFillView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B8CB094C07534ABDA131827C094F5 /* Pods-SPHStringContentFillView_Example-dummy.m */; };
-		B61DB00BB36940864040AE68B91BD990 /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC8E07B645894DAEE2C26BD4A86671E4 /* SPHStringContentFillView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		377A76D7BAEB4E5023E685D645A68769 /* PBXContainerItemProxy */ = {
+		0D990AAE03065E436A5BDDBCBCEB39A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DFF4007DE76E95BCB7781D2FB1FC361B;
-			remoteInfo = "SPHStringContentFillView-SPHStringContentFillView";
-		};
-		A4318E1CC30559D7EA05BDEB99733ACF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37A0314C8F82F11781D01F19F4260577;
+			remoteGlobalIDString = ECF0AE37320739CA67C12BFE0088D54A;
 			remoteInfo = SPHStringContentFillView;
 		};
-		D658EE2F09370B826FFCE76D856AA56A /* PBXContainerItemProxy */ = {
+		755808F8D894F62F3650A765E9C6A0DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37A0314C8F82F11781D01F19F4260577;
+			remoteGlobalIDString = 8AA36D764EBF0A2667222814F4456C6B;
+			remoteInfo = "SPHStringContentFillView-SPHStringContentFillView";
+		};
+		B7FC6E63AB0087B14687B105DE926169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF0AE37320739CA67C12BFE0088D54A;
 			remoteInfo = SPHStringContentFillView;
 		};
 /* End PBXContainerItemProxy section */
@@ -49,60 +49,60 @@
 		026321EBA3DDE8057B0DB531DDFED86C /* Pods-SPHStringContentFillView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHStringContentFillView_Example-umbrella.h"; sourceTree = "<group>"; };
 		125FB01376DE486B5B417A37905D3B49 /* SPHStringContentFillView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-prefix.pch"; sourceTree = "<group>"; };
 		1386404062ED84502A64BF8A80C290F0 /* Pods-SPHStringContentFillView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHStringContentFillView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		211745B1CE63CF73ECBE3BACD2CE632A /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
 		263E0254EFA167239F066325A7E936E9 /* Pods-SPHStringContentFillView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHStringContentFillView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
+		329A5AF8A79F65FE1B19D9C0575A72A0 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		33498327ABB360C36D19DCD3B38DC7E8 /* Pods-SPHStringContentFillView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHStringContentFillView_Example-resources.sh"; sourceTree = "<group>"; };
-		346ED1483A41761C1DFEA38F631D0D18 /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
 		37A9AFD3DB1A56DFC3054107792CC269 /* SPHStringContentFillView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPHStringContentFillView.modulemap; sourceTree = "<group>"; };
 		37DE1232EF26BC954ADA7D3BC0C12C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D40E9502A171B54E62BFBAF4217319A /* Pods-SPHStringContentFillView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHStringContentFillView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4096CB303A243923C32219EA7D7D9268 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A61015EACCB62F57408A0C3278E244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		582280C988B0D18B3FCD5CD94A1CAAC1 /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
 		58629AC0AFDDC51B573CC580464C3380 /* Pods-SPHStringContentFillView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SPHStringContentFillView_Example.modulemap"; sourceTree = "<group>"; };
 		5B7F1E7701494C4E2C79AB683C2D7113 /* Pods_SPHStringContentFillView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHStringContentFillView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
 		795EEA314E41061B13F7F437B44BE60F /* Pods-SPHStringContentFillView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHStringContentFillView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		84F6435C881C8B85DEE7EDC902F724F0 /* Pods_SPHStringContentFillView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHStringContentFillView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87BD07F61AD65A1B7D8C3091B5865081 /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
-		8FEE9C6557A58868766499EFAD8EEBFB /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPHStringContentFillView.h; sourceTree = "<group>"; };
+		98071A63D683A268743B3235901DAA32 /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPHStringContentFillView.h; sourceTree = "<group>"; };
 		993EAED2D6F3C9B976912545DF7200BE /* Pods-SPHStringContentFillView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHStringContentFillView_Tests-dummy.m"; sourceTree = "<group>"; };
 		9BC4FF37BA679D77AE4EDE253BEE4492 /* Pods-SPHStringContentFillView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHStringContentFillView_Tests-resources.sh"; sourceTree = "<group>"; };
 		A7CFC0D6CA5BFEAE7971E5DB5C24EB78 /* Pods-SPHStringContentFillView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SPHStringContentFillView_Tests.modulemap"; sourceTree = "<group>"; };
 		AA1B8CB094C07534ABDA131827C094F5 /* Pods-SPHStringContentFillView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHStringContentFillView_Example-dummy.m"; sourceTree = "<group>"; };
 		B5F63ED159F8941905DE9BEDE5FF5A3B /* Pods-SPHStringContentFillView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHStringContentFillView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B6CD90AA296FCB6D210377017861D416 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BACD9FD2352F3A4FC398CAF89D7A96AE /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC8E07B645894DAEE2C26BD4A86671E4 /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SPHStringContentFillView.mm; sourceTree = "<group>"; };
-		C310928BF8301546E89BCD2E7683E6EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C9DED74717D13DE88E5E06546BFFC236 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AFD1C71FFFDA465A62879B40FCF7F6 /* Pods-SPHStringContentFillView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHStringContentFillView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DA081F286166E32248552D498804445F /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SPHStringContentFillView.mm; sourceTree = "<group>"; };
 		E3DBC52FB31176B71FCD9F52D7200478 /* Pods-SPHStringContentFillView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHStringContentFillView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBDFDB2CB55750346135A88121F98280 /* Pods-SPHStringContentFillView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHStringContentFillView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EEAEED1A8828710E704C4A2DC089C3F0 /* Pods-SPHStringContentFillView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHStringContentFillView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F4D1BB354A6F6DF01EA036D13417B29B /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE687E494EECEA8165925B293AD5BD2F /* Pods-SPHStringContentFillView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHStringContentFillView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FEF9F1FF352388D02C15851928F05D75 /* Pods-SPHStringContentFillView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHStringContentFillView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05A2F93A6B86BB097D13343DCA69DE74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62529668EC8902B67204BF8BA6DCCCBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43BE52D31AE868672EEA0EE0F77B8499 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BCD81A2EA72B3E7583076FC660DC687 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A65D825E050A8308B44DF957CFADB401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800DB87F2E70B756BC373A8267A44899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2907CB2B089844BD64F605197B44091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890BA7577270CBA30E55FC63C95CEE48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C310928BF8301546E89BCD2E7683E6EC /* Foundation.framework */,
+				43A61015EACCB62F57408A0C3278E244 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 		781AE5CBC2F056164FE419BC781AA0FD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8FEE9C6557A58868766499EFAD8EEBFB /* SPHStringContentFillView.h */,
-				BC8E07B645894DAEE2C26BD4A86671E4 /* SPHStringContentFillView.mm */,
+				98071A63D683A268743B3235901DAA32 /* SPHStringContentFillView.h */,
+				DA081F286166E32248552D498804445F /* SPHStringContentFillView.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -221,8 +221,8 @@
 			children = (
 				5B7F1E7701494C4E2C79AB683C2D7113 /* Pods_SPHStringContentFillView_Example.framework */,
 				84F6435C881C8B85DEE7EDC902F724F0 /* Pods_SPHStringContentFillView_Tests.framework */,
-				B6CD90AA296FCB6D210377017861D416 /* SPHStringContentFillView.bundle */,
-				BACD9FD2352F3A4FC398CAF89D7A96AE /* SPHStringContentFillView.framework */,
+				329A5AF8A79F65FE1B19D9C0575A72A0 /* SPHStringContentFillView.bundle */,
+				F4D1BB354A6F6DF01EA036D13417B29B /* SPHStringContentFillView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,10 +232,10 @@
 			children = (
 				37DE1232EF26BC954ADA7D3BC0C12C18 /* Info.plist */,
 				37A9AFD3DB1A56DFC3054107792CC269 /* SPHStringContentFillView.modulemap */,
-				2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */,
-				87BD07F61AD65A1B7D8C3091B5865081 /* SPHStringContentFillView-dummy.m */,
+				61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */,
+				582280C988B0D18B3FCD5CD94A1CAAC1 /* SPHStringContentFillView-dummy.m */,
 				125FB01376DE486B5B417A37905D3B49 /* SPHStringContentFillView-prefix.pch */,
-				346ED1483A41761C1DFEA38F631D0D18 /* SPHStringContentFillView-umbrella.h */,
+				211745B1CE63CF73ECBE3BACD2CE632A /* SPHStringContentFillView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SPHStringContentFillView";
@@ -260,6 +260,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65C6C01F335A98C4D43F61A7E8013A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440703FB3131D1C2C5BB32DD9102AACE /* SPHStringContentFillView-umbrella.h in Headers */,
+				826233B9E5A58D85CBDFE0154444269F /* SPHStringContentFillView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77649FEA9B0B1CCBC51F1537EF91E4E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,36 +277,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8A7245ED087DC2B3A9B3A71E6DA6170 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45C596A12A9D767C66141F28B488D59A /* SPHStringContentFillView-umbrella.h in Headers */,
-				58B35D85AA211C7CD859E87BC0332509 /* SPHStringContentFillView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37A0314C8F82F11781D01F19F4260577 /* SPHStringContentFillView */ = {
+		8AA36D764EBF0A2667222814F4456C6B /* SPHStringContentFillView-SPHStringContentFillView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C07CC30C2659C598656A516BCE6922 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
+			buildConfigurationList = 28498581A7E3CFBC56446230A708C35F /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
 			buildPhases = (
-				C8209C79465682D8AA07F69BB3D7EAE0 /* Sources */,
-				05A2F93A6B86BB097D13343DCA69DE74 /* Frameworks */,
-				844BC54078C2AE4F3FAB7D8F4FF25D68 /* Resources */,
-				B8A7245ED087DC2B3A9B3A71E6DA6170 /* Headers */,
+				3270768FA92E08B73334156E4EDEC066 /* Sources */,
+				800DB87F2E70B756BC373A8267A44899 /* Frameworks */,
+				4D060AD7025E768B1BF7B75266FF241B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B123541F6BC63ACFCBD5DCF6134348B /* PBXTargetDependency */,
 			);
-			name = SPHStringContentFillView;
-			productName = SPHStringContentFillView;
-			productReference = BACD9FD2352F3A4FC398CAF89D7A96AE /* SPHStringContentFillView.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "SPHStringContentFillView-SPHStringContentFillView";
+			productName = "SPHStringContentFillView-SPHStringContentFillView";
+			productReference = 329A5AF8A79F65FE1B19D9C0575A72A0 /* SPHStringContentFillView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		9526FDAD827E5FAC77CF804638F7837D /* Pods-SPHStringContentFillView_Tests */ = {
 			isa = PBXNativeTarget;
@@ -310,29 +308,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				312D565E59A22FE6F0CFE75CBF486ECF /* PBXTargetDependency */,
+				9438D8263597F765058F793FF2498129 /* PBXTargetDependency */,
 			);
 			name = "Pods-SPHStringContentFillView_Tests";
 			productName = "Pods-SPHStringContentFillView_Tests";
 			productReference = 84F6435C881C8B85DEE7EDC902F724F0 /* Pods_SPHStringContentFillView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		DFF4007DE76E95BCB7781D2FB1FC361B /* SPHStringContentFillView-SPHStringContentFillView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3386D2375895513A9FF0F81C09079B5 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
-			buildPhases = (
-				5479D6E1CF376628F48DB0CB88768296 /* Sources */,
-				43BE52D31AE868672EEA0EE0F77B8499 /* Frameworks */,
-				E5010BDFFF251DFCE1E1DE3EBD88F838 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SPHStringContentFillView-SPHStringContentFillView";
-			productName = "SPHStringContentFillView-SPHStringContentFillView";
-			productReference = B6CD90AA296FCB6D210377017861D416 /* SPHStringContentFillView.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		E9B210B554F33542A54F3327B226331A /* Pods-SPHStringContentFillView_Example */ = {
 			isa = PBXNativeTarget;
@@ -345,11 +326,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				59C41E4FA8DF3DCC22EC007447996BA3 /* PBXTargetDependency */,
+				B80565BF7CB0643F1898CDA21513950A /* PBXTargetDependency */,
 			);
 			name = "Pods-SPHStringContentFillView_Example";
 			productName = "Pods-SPHStringContentFillView_Example";
 			productReference = 5B7F1E7701494C4E2C79AB683C2D7113 /* Pods_SPHStringContentFillView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECF0AE37320739CA67C12BFE0088D54A /* SPHStringContentFillView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17035127A3D66367DB1B407CC96115E6 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
+			buildPhases = (
+				9AC6F062ACE3A43CC09D2DDD5599CDD4 /* Sources */,
+				B2907CB2B089844BD64F605197B44091 /* Frameworks */,
+				D1D8E3B089FDFC5A08083C194031C15B /* Resources */,
+				65C6C01F335A98C4D43F61A7E8013A87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2526EC105DD0ACAB80F54771BD1FC5F /* PBXTargetDependency */,
+			);
+			name = SPHStringContentFillView;
+			productName = SPHStringContentFillView;
+			productReference = F4D1BB354A6F6DF01EA036D13417B29B /* SPHStringContentFillView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -375,32 +375,32 @@
 			targets = (
 				E9B210B554F33542A54F3327B226331A /* Pods-SPHStringContentFillView_Example */,
 				9526FDAD827E5FAC77CF804638F7837D /* Pods-SPHStringContentFillView_Tests */,
-				37A0314C8F82F11781D01F19F4260577 /* SPHStringContentFillView */,
-				DFF4007DE76E95BCB7781D2FB1FC361B /* SPHStringContentFillView-SPHStringContentFillView */,
+				ECF0AE37320739CA67C12BFE0088D54A /* SPHStringContentFillView */,
+				8AA36D764EBF0A2667222814F4456C6B /* SPHStringContentFillView-SPHStringContentFillView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		844BC54078C2AE4F3FAB7D8F4FF25D68 /* Resources */ = {
+		4D060AD7025E768B1BF7B75266FF241B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151F612A84EB02A812AAA5C2710B54CB /* SPHStringContentFillView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5010BDFFF251DFCE1E1DE3EBD88F838 /* Resources */ = {
+		D1D8E3B089FDFC5A08083C194031C15B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E687980B10ACA48120EC24D25EA8D49 /* SPHStringContentFillView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5479D6E1CF376628F48DB0CB88768296 /* Sources */ = {
+		3270768FA92E08B73334156E4EDEC066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,35 +423,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8209C79465682D8AA07F69BB3D7EAE0 /* Sources */ = {
+		9AC6F062ACE3A43CC09D2DDD5599CDD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9B903E8BACC80F3A7809FFFCF5457E /* SPHStringContentFillView-dummy.m in Sources */,
-				B61DB00BB36940864040AE68B91BD990 /* SPHStringContentFillView.mm in Sources */,
+				586A4A2C4B63C7E9910D89079BD9349D /* SPHStringContentFillView-dummy.m in Sources */,
+				43627220C5FB6F443C0EE8452D7E594D /* SPHStringContentFillView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		312D565E59A22FE6F0CFE75CBF486ECF /* PBXTargetDependency */ = {
+		9438D8263597F765058F793FF2498129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SPHStringContentFillView;
-			target = 37A0314C8F82F11781D01F19F4260577 /* SPHStringContentFillView */;
-			targetProxy = D658EE2F09370B826FFCE76D856AA56A /* PBXContainerItemProxy */;
+			target = ECF0AE37320739CA67C12BFE0088D54A /* SPHStringContentFillView */;
+			targetProxy = 0D990AAE03065E436A5BDDBCBCEB39A8 /* PBXContainerItemProxy */;
 		};
-		59C41E4FA8DF3DCC22EC007447996BA3 /* PBXTargetDependency */ = {
+		B80565BF7CB0643F1898CDA21513950A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SPHStringContentFillView;
-			target = 37A0314C8F82F11781D01F19F4260577 /* SPHStringContentFillView */;
-			targetProxy = A4318E1CC30559D7EA05BDEB99733ACF /* PBXContainerItemProxy */;
+			target = ECF0AE37320739CA67C12BFE0088D54A /* SPHStringContentFillView */;
+			targetProxy = B7FC6E63AB0087B14687B105DE926169 /* PBXContainerItemProxy */;
 		};
-		6B123541F6BC63ACFCBD5DCF6134348B /* PBXTargetDependency */ = {
+		D2526EC105DD0ACAB80F54771BD1FC5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SPHStringContentFillView-SPHStringContentFillView";
-			target = DFF4007DE76E95BCB7781D2FB1FC361B /* SPHStringContentFillView-SPHStringContentFillView */;
-			targetProxy = 377A76D7BAEB4E5023E685D645A68769 /* PBXContainerItemProxy */;
+			target = 8AA36D764EBF0A2667222814F4456C6B /* SPHStringContentFillView-SPHStringContentFillView */;
+			targetProxy = 755808F8D894F62F3650A765E9C6A0DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -558,6 +558,45 @@
 			};
 			name = Debug;
 		};
+		2A1294DE93F05949E67A21B5440DD6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SPHStringContentFillView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		336A2BFD7088838C9DF399A772CE5DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SPHStringContentFillView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		841CA135CBD03D7F347F5C6ACB9A1168 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEF9F1FF352388D02C15851928F05D75 /* Pods-SPHStringContentFillView_Example.release.xcconfig */;
@@ -587,9 +626,9 @@
 			};
 			name = Release;
 		};
-		ADD62E57BDD1E3ED2BA813CC227CFEC5 /* Release */ = {
+		A13F3291A1CAEE352D6EAB932271C589 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */;
+			baseConfigurationReference = 61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = SPHStringContentFillView;
@@ -628,45 +667,6 @@
 			};
 			name = Debug;
 		};
-		C1231CAA4A9DFDB0F02F6B009D2E27BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SPHStringContentFillView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D701525429A0E0E3B1F7162A4E0ABE44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SPHStringContentFillView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		DD7C13101D52AA88157C098AE2EBFB14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D40E9502A171B54E62BFBAF4217319A /* Pods-SPHStringContentFillView_Example.debug.xcconfig */;
@@ -696,14 +696,14 @@
 			};
 			name = Debug;
 		};
-		FE40D5EE673F74032A17E7E8BF331E4C /* Debug */ = {
+		E3DC272E9A1CF6D0626836222485624A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5A8C5866498713C0400F6565C23E59 /* SPHStringContentFillView.xcconfig */;
+			baseConfigurationReference = 61AFF88858AF506D9F24DCC4A1061BA0 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.2.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.1;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -735,6 +735,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		17035127A3D66367DB1B407CC96115E6 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DC272E9A1CF6D0626836222485624A /* Debug */,
+				336A2BFD7088838C9DF399A772CE5DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28498581A7E3CFBC56446230A708C35F /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1294DE93F05949E67A21B5440DD6A5 /* Debug */,
+				A13F3291A1CAEE352D6EAB932271C589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,29 +762,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63C07CC30C2659C598656A516BCE6922 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE40D5EE673F74032A17E7E8BF331E4C /* Debug */,
-				C1231CAA4A9DFDB0F02F6B009D2E27BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BE8A6C2BD503B6B9198550C5FB868ACE /* Build configuration list for PBXNativeTarget "Pods-SPHStringContentFillView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7C13101D52AA88157C098AE2EBFB14 /* Debug */,
 				841CA135CBD03D7F347F5C6ACB9A1168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3386D2375895513A9FF0F81C09079B5 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D701525429A0E0E3B1F7162A4E0ABE44 /* Debug */,
-				ADD62E57BDD1E3ED2BA813CC227CFEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
