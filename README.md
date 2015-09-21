@@ -7,9 +7,9 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+SPHStringContentFillView is a view that fills itself with many copies of a customizable string at random positions and orientations.
 
-## Requirements
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
