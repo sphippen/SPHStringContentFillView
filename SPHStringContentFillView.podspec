@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
+  s.libraries    = 'c++'
 
   s.source_files = 'Pod/Classes/**/*.{h,mm}'
   s.public_header_files = 'Pod/Classes/**/*.h'
